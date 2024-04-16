@@ -2,12 +2,13 @@ html {
   scroll-behavior: smooth;
   body {
     .container_1 {
-      max-width: 1540px;
+      max-width: 1400px;
       width: 100%;
-      padding: 0 40px;
       margin: 0 auto;
     }
     @import "header";
+
+    @import "main";
 
     @import "footer";
   }

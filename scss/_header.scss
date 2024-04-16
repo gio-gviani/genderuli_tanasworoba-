@@ -1,0 +1,30 @@
+@font-face {
+  font-family: GeorgianAreal;
+  src: url(../fonts/bpg_arial_2009.ttf);
+}
+header {
+  div {
+    padding-top: 20px;
+    height: 92px;
+    display: flex;
+
+    img {
+      max-width: 70px;
+      margin-right: 32px;
+    }
+    ul {
+      display: flex;
+      gap: 32px;
+      align-self: center;
+      a {
+        color: rgb(0, 0, 0);
+        font-family: GeorgianAreal;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+  }
+}

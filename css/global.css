@@ -146,8 +146,201 @@ html {
   scroll-behavior: smooth;
 }
 html body .container_1 {
-  max-width: 1540px;
+  max-width: 1400px;
   width: 100%;
-  padding: 0 40px;
   margin: 0 auto;
+}
+@font-face {
+  font-family: GeorgianAreal;
+  src: url(../fonts/bpg_arial_2009.ttf);
+}
+html body header div {
+  padding-top: 20px;
+  height: 92px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html body header div img {
+  max-width: 70px;
+  margin-right: 32px;
+}
+html body header div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+html body header div ul a {
+  color: rgb(0, 0, 0);
+  font-family: GeorgianAreal;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+@font-face {
+  font-family: ExtraSquareMtavruli;
+  src: url(../fonts/bpg_extrasquare_mtavruli_2009.ttf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+html body .s1 {
+  margin-top: 64px;
+  position: relative;
+  height: 648px;
+}
+html body .s1 img {
+  width: 100%;
+  height: 95%;
+  border-radius: 20px;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+html body .s1 h2 {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  color: white;
+  font-family: ExtraSquareMtavruli;
+  font-size: 29px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+html body .s2 h3 {
+  color: black;
+  font-family: GeorgianAreal;
+  font-size: 29px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 15px;
+}
+html body .s2 p {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+html body .s3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+html body .s3 .interactCard {
+  height: 340px;
+  max-width: 300px;
+  border: black 1px solid;
+  background: #f3f2f2;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+html body .s3 .interactCard h2 {
+  font-family: Oswald;
+  font-size: 100px;
+  margin-top: 60px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-weight: 200;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+html body .s3 .interactCard h4 {
+  font-family: GeorgianAreal;
+  font-size: 24px;
+  margin-top: 60px;
+  font-weight: 200;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+html body .s3 .interactCard p {
+  -ms-flex-item-align: end;
+      align-self: end;
+  font-family: Oswald;
+  font-size: 30px;
+  margin-top: 60px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin-right: 10px;
+  font-weight: 200;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+html body .s3 .interactCard:hover {
+  -webkit-animation: out 1s forwards;
+          animation: out 1s forwards;
+}
+@-webkit-keyframes in {
+  from {
+    background-color: #ffee0d;
+    font-weight: 400;
+  }
+  to {
+    background-color: white;
+    font-weight: 200;
+  }
+}
+@keyframes in {
+  from {
+    background-color: #ffee0d;
+    font-weight: 400;
+  }
+  to {
+    background-color: white;
+    font-weight: 200;
+  }
+}
+@-webkit-keyframes out {
+  0% {
+    background-color: white;
+    font-weight: 200;
+  }
+  100% {
+    background-color: #ffee0d;
+    font-weight: 400;
+  }
+}
+@keyframes out {
+  0% {
+    background-color: white;
+    font-weight: 200;
+  }
+  100% {
+    background-color: #ffee0d;
+    font-weight: 400;
+  }
 }/*# sourceMappingURL=global.css.map */
