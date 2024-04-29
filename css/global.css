@@ -145,14 +145,22 @@ a {
 html {
   scroll-behavior: smooth;
 }
-html body .container_1 {
-  max-width: 1400px;
-  width: 100%;
-  margin: 0 auto;
+@font-face {
+  font-family: ExtraSquareMtavruli;
+  src: url(../fonts/bpg_extrasquare_mtavruli_2009.ttf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: GeorgianAreal;
   src: url(../fonts/bpg_arial_2009.ttf);
+}
+html body .container_1 {
+  max-width: 1450px;
+  width: 100%;
+  margin: 0 auto;
 }
 html body header div {
   padding-top: 20px;
@@ -181,14 +189,6 @@ html body header div ul a {
   line-height: 22px;
   letter-spacing: 0%;
   text-align: left;
-}
-@font-face {
-  font-family: ExtraSquareMtavruli;
-  src: url(../fonts/bpg_extrasquare_mtavruli_2009.ttf);
-}
-@font-face {
-  font-family: Oswald;
-  src: url(../fonts/Oswald-VariableFont_wght.ttf);
 }
 html body .s1 {
   margin-top: 64px;
@@ -221,6 +221,9 @@ html body .s1 h2 {
   letter-spacing: 0%;
   text-align: left;
 }
+html body .s2 {
+  margin-top: 50px;
+}
 html body .s2 h3 {
   color: black;
   font-family: GeorgianAreal;
@@ -229,11 +232,9 @@ html body .s2 h3 {
   line-height: 22px;
   letter-spacing: 0%;
   text-align: left;
-  margin-top: 15px;
 }
 html body .s2 p {
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin: 30px 0;
 }
 html body .s3 {
   display: -webkit-box;
@@ -343,4 +344,88 @@ html body .s3 .interactCard:hover {
     background-color: #ffee0d;
     font-weight: 400;
   }
+}
+html body footer {
+  background-color: #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+html body footer .pre_fotter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+html body footer .pre_fotter .foot_s1 {
+  margin-left: 20px;
+}
+html body footer .pre_fotter .foot_s1 img {
+  width: 50px;
+}
+html body footer .pre_fotter .foot_s1 p {
+  -ms-flex-item-align: end;
+      align-self: end;
+  font-family: GeorgianAreal;
+  font-size: 25px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+html body footer .pre_fotter .foot_s2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 200px;
+  max-width: 800px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+html body footer .pre_fotter .foot_s2 .links h5 {
+  -ms-flex-item-align: end;
+      align-self: end;
+  font-family: ExtraSquareMtavruli;
+  font-size: 20px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+html body footer .pre_fotter .foot_s2 .links p {
+  -ms-flex-item-align: end;
+      align-self: end;
+  font-family: ExtraSquareMtavruli;
+  font-size: 15px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-weight: 200;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+html body footer .pre_fotter .foot_s2 .links span {
+  color: #000000;
+}
+html body footer .pre_fotter .foot_s2 .media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+html body footer .pre_fotter .foot_s2 .media i {
+  font-size: 30px;
 }/*# sourceMappingURL=global.css.map */

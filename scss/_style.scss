@@ -1,8 +1,21 @@
+
 html {
+  @font-face {
+  font-family: ExtraSquareMtavruli;
+  src: url(../fonts/bpg_extrasquare_mtavruli_2009.ttf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: GeorgianAreal;
+  src: url(../fonts/bpg_arial_2009.ttf);
+}
   scroll-behavior: smooth;
   body {
     .container_1 {
-      max-width: 1400px;
+      max-width: 1450px;
       width: 100%;
       margin: 0 auto;
     }

@@ -1,11 +1,4 @@
-@font-face {
-  font-family: ExtraSquareMtavruli;
-  src: url(../fonts/bpg_extrasquare_mtavruli_2009.ttf);
-}
-@font-face {
-  font-family: Oswald;
-  src: url(../fonts/Oswald-VariableFont_wght.ttf);
-}
+
 .s1 {
   margin-top: 64px;
   position: relative;
@@ -35,6 +28,7 @@
   }
 }
 .s2 {
+  margin-top: 50px;
   h3 {
     color: black;
     font-family: GeorgianAreal;
@@ -43,12 +37,11 @@
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
-
-    margin-top: 15px;
   }
   p {
-    margin-top: 30px;
-    margin-bottom: 60px;
+    margin: 30px 0;
+
+    
   }
 }
 .s3 {
