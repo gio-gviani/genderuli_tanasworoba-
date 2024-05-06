@@ -11,10 +11,9 @@ header {
     height: 92px;
     display: flex;
     min-width: 10px;
-@media (max-width: 730px) {
-        justify-content: space-between;
-        
-      }
+    @media (max-width: 730px) {
+      justify-content: space-between;
+    }
     img {
       max-width: 70px;
       margin-right: 32px;
@@ -27,7 +26,6 @@ header {
       gap: 50px;
       @media (max-width: 730px) {
         display: none;
-        
       }
       a {
         color: rgb(0, 0, 0);
@@ -42,11 +40,10 @@ header {
     .burger_bar {
       display: none;
       height: min-content;
-      align-self:  center;
+      align-self: center;
       font-size: 35px;
       @media (max-width: 730px) {
         display: block;
-        
       }
     }
   }
