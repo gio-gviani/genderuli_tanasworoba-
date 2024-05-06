@@ -1,13 +1,20 @@
 footer {
   background-color: #eeeeee;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   .pre_fotter {
     display: flex;
     justify-content: space-between;
-
+    gap: 20px;
+    @media (max-width: 860px) {
+      flex-direction: column;
+    }
     .foot_s1 {
       margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
       img {
         width: 50px;
       }
@@ -19,17 +26,24 @@ footer {
         font-weight: 300;
         line-height: 22px;
         letter-spacing: 0%;
-        text-align: left;
+        text-align: center;
+        align-self: center;
+        margin-bottom: 30px;
       }
     }
     .foot_s2 {
       display: flex;
-      margin-left: 200px;
       max-width: 800px;
       width: 100%;
       justify-content: space-between;
+      gap: 20px;
 
-      .links {     
+      @media (max-width: 625px) {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .links {
         h5 {
           align-self: end;
           font-family: ExtraSquareMtavruli;
@@ -39,8 +53,11 @@ footer {
           line-height: 22px;
           letter-spacing: 0%;
           text-align: left;
+          margin-bottom: 10px;
+          margin: 0 auto;
         }
-        p {
+        a {
+          display: block;
           align-self: end;
           font-family: ExtraSquareMtavruli;
           font-size: 15px;
@@ -49,6 +66,23 @@ footer {
           line-height: 22px;
           letter-spacing: 0%;
           text-align: left;
+          color: #000;
+          margin-bottom: 5px;
+          margin: 0 auto;
+        }
+        p {
+          display: block;
+          align-self: end;
+          font-family: ExtraSquareMtavruli;
+          font-size: 15px;
+          width: max-content;
+          font-weight: 200;
+          line-height: 22px;
+          letter-spacing: 0%;
+          text-align: left;
+          color: #000;
+          margin-bottom: 3px;
+          margin: 0 auto;
         }
         span {
           color: #000000;
@@ -60,6 +94,7 @@ footer {
         gap: 10px;
         i {
           font-size: 30px;
+          color: #000;
         }
       }
     }
